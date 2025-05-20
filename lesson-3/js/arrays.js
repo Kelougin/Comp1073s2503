@@ -80,5 +80,6 @@ console.log(orig6Array);
 orig6Array.unshift("Winnipeg Jets");
 console.log(orig6Array);
 // We can also modify the array contents by deleting or substituting elements, or inserting one or more elements at a certain place with splice()
-
+orig6Array.splice(2, 2, "Edmonton Oilers");
+console.log(orig6Array);
 /* That's it for the basics of working with arrays! With these tools at your disposal, a whole new world of possibilities with JavaScript are at your command */
