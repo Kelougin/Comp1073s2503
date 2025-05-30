@@ -70,5 +70,7 @@ do{
 }while(k >= 0);
 console.log(outputDo);
 /* …now try to loop through the same array backwards! */
+//Foreach
 
+cities.forEach((city) => {console.log(`${city}, `)});
 // This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
